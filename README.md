@@ -1,6 +1,6 @@
 # OpenWith for WinPE
 
-一个用于WinPE的“打开方式”程序，替换 `System32\OpenWith.exe` 后，为未关联文件提供应用选择窗口。
+一个用于WinPE的“打开方式”程序，替换 `System32\OpenWith.exe` 后，为未关联文件提供应用选择窗口
 
 ## 功能
 
@@ -76,7 +76,7 @@ PECMD 配置中的 %%1 最终写入注册表后是 %1，代表所选文件的完
 
 ## 许可证
 
-本项目以 [GNU GPL v3.0](LICENSE) 或更高版本发布。
+本项目以 [GNU GPL v3.0](LICENSE) 发布
 
 ## 署名
 
