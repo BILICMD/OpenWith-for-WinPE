@@ -1,0 +1,8 @@
+# Local build output
+build/
+*.o
+*.obj
+
+# Windows Explorer metadata
+Thumbs.db
+Desktop.ini

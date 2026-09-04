@@ -1,0 +1,38 @@
+#pragma code_page(65001)
+#include <windows.h>
+
+#define IDI_APP 1
+#define IDI_PLACEHOLDER 201
+#define IDI_SCRIPT 202
+
+IDI_APP ICON "resources\\openwith-x86.ico"
+IDI_PLACEHOLDER ICON "resources\\placeholder.ico"
+IDI_SCRIPT ICON "resources\\script-placeholder.ico"
+
+1 VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"
+    BEGIN
+      VALUE "CompanyName", "OpenWith\0"
+      VALUE "FileDescription", "打开方式\0"
+      VALUE "FileVersion", "1.0.2.0\0"
+      VALUE "InternalName", "OpenWith\0"
+      VALUE "OriginalFilename", "\0"
+      VALUE "ProductName", "OpenWith for WinPE x86\0"
+      VALUE "ProductVersion", "1.0.0.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 1200
+  END
+END
